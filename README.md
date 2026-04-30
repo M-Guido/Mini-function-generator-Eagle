@@ -1,7 +1,6 @@
 # Mini Function Generator — PCB Project
-
-**Course:** Metody Projektowania i Technika Realizacji  
-**Author:** Mikołaj Gałązka (198131, EIT2B)  
+ 
+**Author:** Mikołaj Gałązka   
 **Tool:** Autodesk EAGLE  
 
 ---
@@ -36,9 +35,6 @@ The board is suitable for controlling cyclic processes, LED chaser effects, or g
 | X1, X2 | WAGO 237 | 2-pin screw terminal connectors |
 | JP1 | 2-pin jumper | Configuration jumper |
 
-Full BOM is available in [`partlist.txt`](./partlist.txt).
-
----
 
 ## PCB Details
 
@@ -55,9 +51,7 @@ Full BOM is available in [`partlist.txt`](./partlist.txt).
 ├── GałązkaUkład.sch       # EAGLE schematic
 ├── GałązkaUkład.brd       # EAGLE board layout
 ├── GałązkaUkład.lbr       # Custom component library
-├── gerbers/               # Gerber files ready for fabrication
-├── partlist.txt           # Full BOM (Bill of Materials)
-├── netlist.txt            # Net connections list
+├── .gpi and .pho gerbers/               # Gerber files ready for fabrication drills and pcb schema
 └── README.md
 ```
 
@@ -86,6 +80,3 @@ Adjust R14 (trimmer) across its full range and record the min/max output frequen
 
 ---
 
-## License
-
-Academic project — EIT2B, 2026.
